@@ -1,0 +1,254 @@
+@media (max-width:768px){
+    :root{ --width-container:100%;
+           --width-90:90%;  }
+
+    /* NAV MEDIA QUEIRES */
+
+   .ancho{width: 95%; margin: auto;}
+   .logo-container{padding-left: 10px;}
+   .web{ display: none;}
+   .closeOpen{display: block;}
+   
+   /*NAV MOBILE*/
+
+   #menuOpen{display: block;}
+  
+   .mostrarMenu{
+                -webkit-animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+   }
+   @-webkit-keyframes slide-in-right{0%{-webkit-transform:translateX(1000px);
+    transform:translateX(1000px);opacity:0}100%{-webkit-transform:translateX(0);
+        transform:translateX(0);opacity:1}}@keyframes slide-in-right{0%
+            {-webkit-transform:translateX(1000px);transform:translateX(1000px);
+                opacity:0}100%{-webkit-transform:translateX(0);
+                    transform:translateX(0);opacity:1}}
+
+   .cerrarMenu{
+    animation:scale-out-ver-bottom .5s cubic-bezier(.55,.085,.68,.53) both;
+   }
+
+
+
+   /* IMÁGENES EN ABSOLUTE*/
+
+   .img-section-container,
+   .img-section-container-hangover,
+   .img-section-container-med
+    {display: none;}
+
+   
+   /* HEADER */
+
+   .container {width:var(--width-90)}
+   .container-content{width:var(--width-container); }
+   .header-img img{ width: 90%; }
+
+   .container-gradient{
+    width: 100%;
+    text-align: center;
+    flex-direction: column;
+   }
+   .text-container h1{
+    padding-left: 0px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 32px;
+   }
+   /* CTA ESTILOS */
+   .container-c2a p{
+    color: #04534E;
+    padding-left: 10px;
+    font-size: 14px;
+    font-weight: 800;
+}
+.actions{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding: 10px;
+}
+.actions img{
+    margin-left:0;
+    width: 50%;
+}
+/* CONTAINER SALUD  Hangover Visita Médica*/
+
+.section-primary{
+    width:100%;
+    height: 100%;
+}
+.text-description{
+    flex-direction: column;
+    padding: 10px;
+    text-align: center;
+ }
+.text-description h2 {margin-bottom: 10px;}
+.container-description-section{
+    width: 100%;
+    height: 100%;
+    margin-top: 60px;
+}
+.cards-container-section{
+    flex-direction: column;
+    text-align: center;
+}
+.card-contain{display: none;}
+.card-contain-mob{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}   
+.img-card img{width:90px;}
+.info-card{text-align: left;}
+.mob-title-card{font-size: 20px;}
+.description-card-mob{font-size:12px;}
+.info-product-mob{font-size: 10px;}
+.purchase{
+    padding: 3px 10px;
+    font-size: 12px;
+    display:inline;
+    width: 10px;
+}
+.info-card{padding:20px}
+.price{ 
+    padding: 0;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 9px;
+    line-height: 18px;
+}
+.text-description h2{margin-right: 0;}
+/* SECCIÓN ¿Qué hacemos? */
+.section-primary-2{
+   margin-top: 100px;
+   width: 100%;
+   height: 100%; 
+}
+.container-section-2{ width:100%}
+.container-section-content{
+    width:90%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.section-img-2 img{
+    width: 90%;
+    margin: auto;
+}
+.text-description-2{
+    width: 95%;
+    margin-right: 0;
+}
+.text-description-2 h2 {
+    padding: 12px 13px;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.text-description-2 p{font-size: 16px;}
+/* Ubicación*/
+.section-primary-3{ width: var(--width-container);height: 947px;}
+.container-section-3{  width: var(--width-container);}
+.section-img-3 img{ width: var(--width-container);text-align: center;}
+.container-section-content-3{ 
+    width: 90%;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+}
+.text-description-3 h2{ padding:12px 13px;font-size: 32px;margin-bottom: 10px;}
+.section-img-3 img{width:100%;}
+.section-img-3{display: flex;justify-content: center;margin: auto;}
+.text-description-3{margin-right: 0px;width:var(--width-container);}
+.text-description-3 a{font-weight: 600;}
+
+
+/* SECCIÓN TERAPIA IV */
+
+.section-primary-4{width: 100%;margin: auto;}
+.background-4{
+    background-image:url('src/IVMob.png');
+    width: var(--width-container);
+    justify-content: center;
+    height: 714px;
+}
+.text-4{
+    width: var(--width-container);
+    margin: 10px;
+}
+.text-4 p{font-size: 14px;margin: 10px;line-height: 21px;}
+
+/* CONTAINER NUESTRA MÉDICO */
+
+.section-primary-5{width: var(--width-container);margin: auto;}
+.container-5{
+    flex-direction: column;
+    width: var(--width-container);
+    height: 100%;
+    margin: auto;
+}
+.container-text-5{
+    width: 90%;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+.img-5{margin-right:0;display: flex;justify-content: center;}
+.img-5 img{width: 100%;margin-bottom: 10px;}
+.text-5 h2{font-size: 32px;}
+.text-5 p{font-size: 20px;}
+
+/* MÉTODOS DE PAGO */
+
+.section-primary-6{
+    width: var(--width-90);
+
+}
+
+.method{
+    width: var(--width-90);
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 10px;
+}
+
+.text-6{
+        font-weight: 800;
+        text-align: center;
+        margin-right: 0px;
+}
+.text-6 h2{font-size: 32px;margin-bottom: 20px;}
+.iconos {text-align: center;}
+.iconos img{ width: 25px;}
+
+.container-footer{
+    width: var(--width-container);
+    flex-direction: column;
+    height: 100%;
+    padding: 20px;
+}
+
+/* MODAL CTA */
+
+.modal-cta{
+    top: 50%;
+    left: 10%;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
